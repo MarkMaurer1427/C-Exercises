@@ -6,22 +6,10 @@ namespace CSharp_independent
     {
         static void Main(string[] args)
         {
-            Voting.VoteCheck();
+            //Voting.VoteCheck();
+            //NumGuess.Guess();
+            Plinko.drop();
         }
 
-        public static void Recursion(int x)
-        {
-            if (x == 0)
-            {
-                Console.WriteLine("A for loop is easier than this.");
-                Console.WriteLine("Recursion done.");
-            }
-            else
-            {
-                Console.WriteLine("A for loop is easier than this.");
-                x--;
-                Recursion(x);
-            }
-        }
     }
 }

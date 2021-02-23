@@ -6,7 +6,7 @@ namespace CSharp_independent
     {
         static void Main(string[] args)
         {
-            Recursion(10);
+            Voting.VoteCheck();
         }
 
         public static void Recursion(int x)

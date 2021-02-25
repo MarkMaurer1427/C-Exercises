@@ -27,16 +27,19 @@ namespace CSharp_independent
                     correct = true;
                     Console.WriteLine("You guessed it.");
                 }
-                else if (guess > correctNum)
+                else
                 {
-                    Console.WriteLine("Too High.");
+                    WrongGuess(guess, correctNum);
                 }
-                else if (guess < correctNum)
-                { Console.WriteLine("Too Low."); }
             }
             while (correct == false);
         }
 
+        public static void WrongGuess(int userGuess, int correctAnswer)
+        {
+            var output = (userGuess > correctAnswer) ? "Too High." : "Too Low.";
+            Console.WriteLine(output);
+        }
 
     }
 }

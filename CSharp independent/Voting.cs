@@ -28,7 +28,7 @@ class Voting{
         else
         {
          Console.WriteLine("You are not eligible to vote.");
-         Console.WriteLine("Reason: " + eval);
+         Console.WriteLine($"Reason: {eval}" );
         }
     }
 

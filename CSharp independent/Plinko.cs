@@ -23,6 +23,7 @@ namespace CSharp_independent
                 {
                     if (position<7) {position++;}
                 }
+                                
             }
 
             switch (position)
@@ -58,7 +59,7 @@ namespace CSharp_independent
                     break;
 
                 case 7:
-                    Console.WriteLine("Landed in position 2");
+                    Console.WriteLine("Landed in position 7");
                     Console.WriteLine("Your prize: An alienware gaming laptop. WOOHOO!!");
                     break;
             }

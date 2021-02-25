@@ -8,7 +8,7 @@ namespace CSharp_independent
         {
             //Voting.VoteCheck();
             //NumGuess.Guess();
-            Plinko.drop();
+            //Plinko.drop();
         }
 
     }
